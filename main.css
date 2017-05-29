@@ -1,0 +1,42 @@
+body{
+  background-color: rgba(38, 33, 35, .5);
+}
+
+#slider {
+position: relative;
+overflow: hidden;
+width: 500px;
+height: 300px;
+border: 5px solid #fff;
+border-radius: 10px;
+margin-top: 10%;
+margin-left: 30%;
+padding: 0;
+}
+
+#slider > div {
+position:absolute;
+top:0;
+left:0;
+}
+
+#slider img {
+width:100%;
+min-height:300px;
+margin:0;
+padding:0;
+border:0;
+}
+
+.controles {
+  margin-left: 44%;
+  margin-top: 5%;
+}
+
+ span{
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  display: inline-block;
+}
